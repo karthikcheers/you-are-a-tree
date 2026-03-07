@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>You Are a Tree — A Life Wisdom Guide</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:ital,wght@0,400;0,700;1,400&family=Noto+Serif:ital,wght@0,400;1,400&display=swap" rel="stylesheet"/>
+<style>
+:root{--g0:#060e04;--g1:#1b4332;--g2:#2d6a4f;--g3:#52b788;--gp:#d8f3dc;
+--br:#4a2c0a;--bm:#7a4a1e;--bl:#b8895a;--gd:#c9941a;--gl:#e8c56a;--gpl:#fdf3d0;
+--cr:#faf7f0;--ink:#1c1c2e;--im:#3d3d5c;--il:#6b7280;
+--sh:0 3px 18px rgba(0,0,0,.09);--sh2:0 6px 32px rgba(0,0,0,.14);--r:14px;}
+*{box-sizing:border-box;margin:0;padding:0;}html{scroll-behavior:smooth;}
+body{font-family:'Lato',sans-serif;background:var(--cr);color:var(--ink);line-height:1.75;}
+
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(4,10,3,.97);
+    backdrop-filter:blur(8px);padding:.55rem 1.5rem;display:flex;align-items:center;
+    justify-content:space-between;box-shadow:0 2px 10px rgba(0,0,0,.3);}
+.nl{font-family:'Cinzel',serif;color:var(--gl);font-size:.92rem;text-decoration:none;}
+nav ul{list-style:none;display:flex;gap:.15rem;flex-wrap:wrap;}
+nav a{color:#a7d9b1;text-decoration:none;font-size:.68rem;font-weight:700;letter-spacing:.4px;
+      text-transform:uppercase;padding:.25rem .55rem;border-radius:50px;transition:all .2s;}
+nav a:hover{background:rgba(255,255,255,.1);color:var(--gl);}
+
+.hero{min-height:100vh;background:radial-gradient(ellipse at 20% 80%,rgba(74,44,10,.5),transparent 55%),
+      radial-gradient(ellipse at 80% 20%,rgba(27,67,50,.55),transparent 55%),
+      linear-gradient(165deg,#060e04,#1b4332 40%,#2d6a4f 70%,#52b788);
+      display:flex;flex-direction:column;align-items:center;justify-content:center;
+      text-align:center;padding:7rem 2rem 5rem;position:relative;overflow:hidden;}
+.ht{font-size:5.5rem;animation:sway 5s ease-in-out infinite;margin-bottom:.9rem;
+    filter:drop-shadow(0 6px 18px rgba(0,0,0,.4));}
+@keyframes sway{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg) translateY(-6px)}}
+.hero h1{font-family:'Cinzel',serif;color:#fff;font-size:clamp(2rem,5vw,3.8rem);font-weight:700;line-height:1.15;margin-bottom:.75rem;}
+.hero h1 em{color:var(--gl);font-style:normal;}
+.hero .hs{color:#b7e4c7;font-size:1rem;max-width:540px;font-style:italic;margin-bottom:1.5rem;line-height:1.7;}
+.mp{font-family:'Noto Serif',serif;background:rgba(201,148,26,.14);border:1px solid rgba(201,148,26,.38);
+    border-radius:50px;padding:.45rem 1.7rem;color:var(--gl);font-size:.92rem;letter-spacing:3px;margin-bottom:2rem;}
+.hps{display:flex;gap:.6rem;flex-wrap:wrap;justify-content:center;}
+.hp{background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.16);border-radius:50px;
+    padding:.28rem .8rem;color:#d8f3dc;font-size:.74rem;font-weight:700;text-decoration:none;}
+.hp:hover{background:rgba(255,255,255,.16);}
+.wave{position:absolute;bottom:0;left:0;right:0;}
+
+.sw{padding:4rem 1.5rem;}
+.si{max-width:1040px;margin:0 auto;}
+.bg-seed{background:linear-gradient(165deg,#040a02,#1b3010,#223416);}
+.bg-root{background:linear-gradient(165deg,#280f03,#4a2c0a,#643614);}
+.bg-trnk{background:linear-gradient(165deg,#080f05,#1b330e,#2a4818);}
+.bg-brnc{background:linear-gradient(155deg,#f2ede2,#e5dac6);}
+.bg-leaf{background:linear-gradient(155deg,#e6f4e8,#c5e3c9);}
+.bg-frut{background:linear-gradient(155deg,#fff6e5,#fbefc5);}
+.bg-seas{background:linear-gradient(155deg,#e5eef6,#cce0ee);}
+.bg-fore{background:linear-gradient(165deg,#030804,#1b3310,#213c18);}
+.bg-gard{background:linear-gradient(165deg,#020504,#0d1c07,#152a0e);}
+
+.sh{text-align:center;margin-bottom:2.8rem;}
+.stag{display:inline-flex;align-items:center;font-size:.67rem;font-weight:700;letter-spacing:2px;
+      text-transform:uppercase;border-radius:50px;padding:.26rem .95rem;margin-bottom:.75rem;}
+.tl{background:rgba(255,255,255,.12);color:#d8f3dc;border:1px solid rgba(255,255,255,.17);}
+.td{background:var(--gp);color:var(--g1);} .te{background:rgba(122,74,30,.11);color:var(--br);}
+.tg{background:var(--gpl);color:var(--br);}
+.sh h2{font-family:'Cinzel',serif;font-size:clamp(1.55rem,3.5vw,2.6rem);line-height:1.2;margin-bottom:.7rem;}
+.cw{color:#fff;}.cl{color:var(--g1);}.ce{color:var(--br);}
+.lead{max-width:640px;margin:.6rem auto 0;font-size:.97rem;line-height:1.78;}
+.lw{color:#b7e4c7;}.ll{color:var(--im);}.le{color:var(--bm);}
+.mq{display:block;font-family:'Noto Serif',serif;font-style:italic;font-size:1rem;
+    line-height:1.8;max-width:640px;margin:0 auto;}
+.mq-g{color:var(--gl);}.mq-e{color:var(--bl);}.mq-l{color:#b7e4c7;}.mq-gr{color:var(--g2);}
+
+.tpg{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin-bottom:2rem;}
+@media(max-width:660px){.tpg{grid-template-columns:1fr;}}
+.tb,.pb{border-radius:var(--r);padding:1.6rem;}
+.tb.dk{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);}
+.pb.dk{background:rgba(201,148,26,.09);border:1px solid rgba(201,148,26,.26);}
+.tb.lt{background:#fff;border:1px solid #dce8dc;box-shadow:var(--sh);}
+.pb.lt{background:var(--gpl);border:1px solid #dfc055;box-shadow:var(--sh);}
+.bl{display:inline-flex;font-size:.64rem;font-weight:700;letter-spacing:2px;
+    text-transform:uppercase;border-radius:50px;padding:.16rem .75rem;margin-bottom:.7rem;}
+.bt{background:rgba(82,183,136,.2);color:#52b788;}.bp{background:rgba(201,148,26,.26);color:var(--gl);}
+.btl{background:var(--gp);color:var(--g1);}.bpl{background:var(--gpl);color:var(--br);}
+.tb h3,.pb h3{font-family:'Cinzel',serif;font-size:.97rem;margin-bottom:.5rem;}
+.tb.dk h3{color:#d8f3dc;}.pb.dk h3{color:var(--gl);}
+.tb.lt h3{color:var(--g1);}.pb.lt h3{color:var(--br);}
+.tb.dk p,.tb.dk li{color:#c8e6c9;font-size:.87rem;}
+.pb.dk p,.pb.dk li{color:#c9a050;font-size:.87rem;}
+.tb.lt p,.tb.lt li{color:var(--im);font-size:.87rem;}
+.pb.lt p,.pb.lt li{color:var(--bm);font-size:.87rem;}
+.tb ul,.pb ul{padding-left:1.05rem;margin-top:.35rem;}.tb li,.pb li{margin-bottom:.3rem;}
+
+.kosha{display:flex;flex-direction:column;align-items:center;gap:4px;max-width:470px;margin:0 auto 1rem;}
+.kl{border-radius:9px;padding:.7rem 1.3rem;text-align:center;width:100%;transition:transform .2s;}
+.kl:hover{transform:scaleX(1.02);}
+.kl h4{font-family:'Cinzel',serif;font-size:.82rem;margin-bottom:.08rem;}
+.kl p{font-size:.72rem;opacity:.86;}
+.k1{background:#3b82f6;color:#fff;}.k2{background:#f59e0b;color:#fff;max-width:90%;}
+.k3{background:#ef4444;color:#fff;max-width:80%;}.k4{background:#8b5cf6;color:#fff;max-width:70%;}
+.k5{background:#10b981;color:#fff;max-width:60%;}
+.katm{margin-top:5px;padding:.6rem 1.2rem;background:rgba(201,148,26,.14);border:2px solid var(--gd);
+      border-radius:9px;text-align:center;max-width:50%;}
+.katm h4{font-family:'Cinzel',serif;color:var(--gl);font-size:.82rem;}
+.katm p{color:#b7e4c7;font-size:.7rem;}
+
+.mvg{display:grid;grid-template-columns:repeat(auto-fit,minmax(185px,1fr));gap:.8rem;margin-bottom:2rem;}
+.mvc{background:rgba(201,148,26,.09);border:1px solid rgba(201,148,26,.28);border-radius:9px;padding:1.1rem;text-align:center;}
+.mv-s{font-family:'Noto Serif',serif;color:var(--gl);font-size:1.05rem;margin-bottom:.2rem;}
+.mv-t{color:#d8f3dc;font-style:italic;font-size:.82rem;margin-bottom:.15rem;}
+.mv-r{color:var(--gd);font-size:.67rem;}
+
+.aw{max-width:720px;margin:0 auto 1.8rem;}
+.ai{margin-bottom:.38rem;}
+.ab{width:100%;text-align:left;cursor:pointer;display:flex;justify-content:space-between;align-items:center;
+    padding:.75rem 1.05rem;border-radius:9px;font-family:'Cinzel',serif;font-size:.83rem;transition:background .2s;border:none;}
+.ab.d{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.13);color:var(--gl);}
+.ab.l{background:#fff;border:1px solid #d5e5d5;color:var(--g1);box-shadow:var(--sh);}
+.ab.d:hover{background:rgba(255,255,255,.12);}.ab.l:hover{background:var(--gp);}
+.abody{display:none;padding:.85rem 1.05rem;font-size:.85rem;line-height:1.76;border-radius:0 0 9px 9px;}
+.abody.open{display:block;}
+.abody.d{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.09);color:#b7e4c7;}
+.abody.l{background:var(--gp);border:1px solid #c5e3c9;color:var(--im);}
+.abody ul{padding-left:1.05rem;}.abody li{margin-bottom:.26rem;}
+
+.cb{background:#fff;border-radius:var(--r);padding:1.7rem;box-shadow:var(--sh);}
+.cb h3{font-family:'Cinzel',serif;color:var(--g1);font-size:.97rem;text-align:center;margin-bottom:.22rem;}
+.cb .cs{color:var(--il);font-size:.78rem;text-align:center;margin-bottom:1.2rem;}
+.cw2{position:relative;height:260px;max-width:290px;margin:0 auto;}
+.leg{display:grid;grid-template-columns:1fr 1fr;gap:.28rem .75rem;margin-top:.95rem;}
+.li{display:flex;align-items:center;gap:.38rem;font-size:.74rem;color:var(--im);}
+.ld{width:10px;height:10px;border-radius:50%;flex-shrink:0;}
+.cd{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.2rem;}
+
+.sg{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.05rem;}
+.sc{border-radius:var(--r);padding:1.45rem;box-shadow:var(--sh2);}
+.sc .se{font-size:2rem;margin-bottom:.45rem;}
+.sc h3{font-family:'Cinzel',serif;font-size:.92rem;margin-bottom:.18rem;}
+.sc p{font-size:.81rem;line-height:1.6;}.sc ul{font-size:.78rem;padding-left:1rem;margin-top:.3rem;}
+.sc li{margin-bottom:.22rem;}
+.ss{background:linear-gradient(135deg,#a0522d,#7a4a1e);color:#fde8c8;}
+.su{background:linear-gradient(135deg,#2d6a4f,#1b4332);color:#d8f3dc;}
+.sau{background:linear-gradient(135deg,#b35a1a,#8b3a0a);color:#fde8c8;}
+.sw2{background:linear-gradient(135deg,#2c4a6e,#1a2e50);color:#d8eaf8;}
+
+.ikw{position:relative;width:230px;height:230px;margin:0 auto 1.2rem;}
+.ikc{position:absolute;width:140px;height:140px;border-radius:50%;display:flex;align-items:center;
+     justify-content:center;text-align:center;font-size:.64rem;font-weight:700;padding:.7rem;opacity:.82;}
+.ikl{background:#e74c3c;color:#fff;top:0;left:50%;transform:translateX(-50%);}
+.ikg{background:#3498db;color:#fff;top:50%;right:0;transform:translateY(-50%);}
+.ikn{background:#27ae60;color:#fff;bottom:0;left:50%;transform:translateX(-50%);}
+.ikp{background:#f39c12;color:#fff;top:50%;left:0;transform:translateY(-50%);}
+.ikm{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:60px;height:60px;
+     border-radius:50%;background:rgba(255,255,255,.95);display:flex;align-items:center;justify-content:center;
+     text-align:center;font-size:.6rem;font-weight:700;color:var(--ink);line-height:1.3;box-shadow:var(--sh2);}
+
+.dc{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:var(--r);padding:1.4rem;transition:background .2s;}
+.dc:hover{background:rgba(255,255,255,.11);}
+.dc .ci{font-size:1.7rem;margin-bottom:.45rem;}
+.dc h4{font-family:'Cinzel',serif;color:#d8f3dc;font-size:.93rem;margin-bottom:.3rem;}
+.dc p{color:#a7d9b1;font-size:.84rem;}.dc ul{color:#a7d9b1;font-size:.82rem;padding-left:1rem;}
+.dc li{margin-bottom:.26rem;}
+.gtag{display:inline-block;background:var(--gd);color:var(--ink);font-size:.63rem;font-weight:700;padding:.12rem .58rem;border-radius:50px;margin-bottom:.4rem;}
+
+.ps{display:grid;grid-template-columns:repeat(auto-fit,minmax(165px,1fr));gap:.95rem;margin-top:2.3rem;}
+.pr{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.11);border-radius:9px;padding:1.15rem;text-align:center;transition:background .2s;}
+.pr:hover{background:rgba(255,255,255,.11);}
+.pr .pi{font-size:1.75rem;margin-bottom:.38rem;}
+.pr h4{font-family:'Cinzel',serif;color:var(--gl);font-size:.84rem;margin-bottom:.25rem;}
+.pr p{color:#b7e4c7;font-size:.75rem;}
+
+.bq{text-align:center;padding:2.2rem 1.5rem;max-width:700px;margin:1.8rem auto;}
+.bq blockquote{font-family:'Noto Serif',serif;font-size:clamp(.9rem,2vw,1.12rem);font-style:italic;line-height:1.9;margin-bottom:.6rem;}
+.bq cite{font-size:.76rem;opacity:.65;}
+.bq.l blockquote,.bq.l cite{color:#b7e4c7;}
+.bq.d blockquote{color:var(--g1);}.bq.d cite{color:var(--il);}
+.bq.g blockquote,.bq.g cite{color:var(--gl);}
+.bq.e blockquote{color:var(--bm);}.bq.e cite{color:var(--bl);}
+
+.gg{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.05rem;}
+
+footer{background:#030804;padding:3rem 2rem;text-align:center;}
+.ftr{font-size:3.2rem;animation:sway 5s ease-in-out infinite;margin-bottom:.6rem;}
+footer h3{font-family:'Cinzel',serif;color:var(--gl);font-size:1.2rem;margin-bottom:.45rem;}
+footer p{color:#374151;font-size:.83rem;max-width:440px;margin:0 auto .8rem;}
+.ftm{font-family:'Noto Serif',serif;color:var(--gd);font-size:.97rem;letter-spacing:4px;}
+
+<task_progress>
+- [ ] Write wisdom.css (external CSS file)
+- [ ] Write life_wisdom_guide.html (HTML + inline JS, links to wisdom.css)
+- [ ] Verify file opens correctly in browser
+</task_progress>
+</style>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+<nav>
+  <a class="nl" href="#hero">🌳 You Are a Tree</a>
+  <ul><li><a href="#seed">Seed</a></li><li><a href="#roots">Roots</a></li><li><a href="#trunk">Trunk</a></li><li><a href="#branches">Branches</a></li><li><a href="#leaves">Leaves</a></li><li><a href="#fruit">Fruit</a></li><li><a href="#seasons">Seasons</a></li><li><a href="#forest">Forest</a></li><li><a href="#garden">Daily Garden</a></li></ul>
+</nav>
+<section class="hero" id="hero">
+  <div class="ht">🌳</div>
+  <h1>You Are a <em>Tree</em></h1>
+  <p class="hs">A living guide to understanding yourself — growing toward a life of deep peace, purpose, and harmony.</p>
+  <div class="mp">ॐ &nbsp; Aham Brahmasmi &nbsp; ॐ</div>
+  <div class="hps"><a class="hp" href="#seed">🌰 Seed</a><a class="hp" href="#roots">🌱 Roots</a><a class="hp" href="#trunk">🪵 Trunk</a><a class="hp" href="#branches">🌿 Branches</a><a class="hp" href="#leaves">🍃 Leaves</a><a class="hp" href="#fruit">🍎 Fruit</a><a class="hp" href="#seasons">🍂 Seasons</a><a class="hp" href="#forest">🌲 Forest</a><a class="hp" href="#garden">🌻 Daily Garden</a></div>
+  <svg class="wave" viewBox="0 0 1440 60" fill="none"><path d="M0 30C400 60 1040 0 1440 30L1440 60H0Z" fill="#faf7f0"/></svg>
+</section>
+<div style="background:var(--cr);padding:2.5rem 1.5rem;"><div style="max-width:720px;margin:0 auto;text-align:center;">
+  <p style="font-size:1rem;color:var(--im);line-height:1.9;margin-bottom:.8rem;">A tree does not struggle to grow. It does not compare itself to other trees, worry about tomorrow's storm, or grieve yesterday's fallen leaf. It simply <strong>is</strong> — rooted, alive, giving. <strong>You are that tree.</strong></p>
+  <p style="font-size:.93rem;color:var(--g1);font-weight:700;">Each section below gives you the <em>understanding</em> (philosophy &amp; research) and the <em>practice</em> (how to live it today).</p>
+</div></div>
+
+<!-- SEED -->
+<div class="sw bg-seed" id="seed"><div class="si">
+  <div class="sh"><span class="stag tl">🌰 The Beginning</span>
+    <h2 class="cw">The Seed &nbsp;·&nbsp; <em style="color:var(--gl);font-style:normal;font-size:.6em;">Your True Nature</em></h2>
+    <span class="mq mq-g">"Before the tree was the seed. Before the seed — the infinite potential that holds all forests. <em>You are that potential.</em>"</span>
+    <p class="lead lw">You already contain everything you are searching for. Advaita Vedanta names this truth: <em>Atman = Brahman</em>. The apparent smallness is Maya — the veil that conceals your true, boundless nature.</p>
+  </div>
+  <div class="tpg">
+    <div class="tb dk"><span class="bl bt">📖 Advaita — You Are Already Whole</span><h3>The Seed's True Nature</h3>
+      <p><strong>Advaita</strong> ("not two"): your innermost self — the Atman — is not separate from Brahman (ultimate reality). Like a wave entirely made of ocean, you are made of pure, boundless consciousness.</p>
+      <p style="margin-top:.5rem;">The feeling of being limited and separate is <strong>Maya</strong>. Realising this is Moksha — freedom. The seed's smallness is Maya. Its true nature — the great tree — was always there, waiting not to be created, but <em>revealed</em>.</p>
+    </div>
+    <div class="pb dk"><span class="bl bp">🌱 Daily Practice — Atma-Vichara</span><h3>Morning Self-Inquiry</h3>
+      <ul><li><strong>Before opening eyes:</strong> <em>"What is aware before any thought arises?"</em> Rest in that awareness.</li>
+      <li><strong>Pranayama (10 min):</strong> Nadi Shodana (alternate-nostril breath). Cultivates Sattva.</li>
+      <li><strong>Meditation (15–20 min):</strong> Sit as the witness of thoughts — not fighting, simply not identifying.</li>
+      <li><strong>Sankalpa:</strong> <em>"Today I act from my true nature — peaceful, open, present."</em></li>
+      <li><strong>Svadhyaya (15 min):</strong> One page of Bhagavad Gita or Upanishads. Water the seed daily.</li></ul>
+    </div>
+  </div>
+  <p style="text-align:center;color:var(--gl);font-size:.78rem;letter-spacing:2px;text-transform:uppercase;font-family:'Noto Serif',serif;margin-bottom:.85rem;">Four Great Utterances — Mahavakyas</p>
+  <div class="mvg">
+    <div class="mvc"><div class="mv-s">अहम् ब्रह्मास्मि</div><div class="mv-t">"Aham Brahmasmi"</div><div class="mv-r">I am Brahman · Brihadaranyaka Upanishad</div></div>
+    <div class="mvc"><div class="mv-s">तत् त्वम् असि</div><div class="mv-t">"Tat Tvam Asi"</div><div class="mv-r">That Thou Art · Chandogya Upanishad</div></div>
+    <div class="mvc"><div class="mv-s">प्रज्ञानं ब्रह्म</div><div class="mv-t">"Prajnanam Brahma"</div><div class="mv-r">Consciousness is Brahman · Aitareya</div></div>
+    <div class="mvc"><div class="mv-s">अयम् आत्मा ब्रह्म</div><div class="mv-t">"Ayam Atma Brahma"</div><div class="mv-r">This Self is Brahman · Mandukya</div></div>
+  </div>
+  <p style="text-align:center;color:#b7e4c7;font-size:.84rem;margin-bottom:.9rem;"><strong style="color:var(--gl);">Pancha Kosha</strong> — Five sheaths surround the Atman. Peel them back to find pure consciousness.</p>
+  <div class="kosha">
+    <div class="kl k1"><h4>Annamaya Kosha — Physical Body</h4><p>Made of food · The bark of the seed</p></div>
+    <div class="kl k2"><h4>Pranamaya Kosha — Vital Energy</h4><p>Life force · Breath · Moisture within</p></div>
+    <div class="kl k3"><h4>Manomaya Kosha — Mind</h4><p>Thoughts, emotions, reactions</p></div>
+    <div class="kl k4"><h4>Vijnanamaya Kosha — Intellect</h4><p>Discrimination · Wisdom · Intelligence</p></div>
+    <div class="kl k5"><h4>Anandamaya Kosha — Bliss</h4><p>Deep contentment · Sleep &amp; Samadhi</p></div>
+    <div class="katm"><h4>✨ Atman — Pure Consciousness</h4><p>Sat · Chit · Ananda</p></div>
+  </div>
+  <div class="bq g"><blockquote>"You are not the seed's husk. You are the life within it. Not the wave — the ocean itself."</blockquote><cite>— Advaita Vedanta</cite></div>
+</div></div>
+
+<!-- ROOTS -->
+<div class="sw bg-root" id="roots"><div class="si">
+  <div class="sh"><span class="stag tl">🌱 Part One</span>
+    <h2 class="cw">The Roots &nbsp;·&nbsp; <em style="color:#c9a87c;font-style:normal;font-size:.6em;">Your Invisible Foundation</em></h2>
+    <span class="mq mq-e">"The roots are hidden underground — yet they determine everything: how tall the tree grows, how it weathers storms, whether it can bear fruit."</span>
+    <p class="lead lw">Your roots are your values, beliefs, and spiritual anchors. Every action and every response to difficulty flows from them. A tree with shallow roots cannot stand when the storm comes.</p>
+  </div>
+  <div class="tpg">
+    <div class="tb dk"><span class="bl bt">📖 Sadhana Chatushtaya — Four Root Qualifications</span><h3>Adi Shankaracharya's Foundation</h3>
+      <ul><li><strong>Viveka</strong> — Discriminating the eternal from the temporary. Roots growing toward water, not illusion.</li>
+      <li><strong>Vairagya</strong> — Non-attachment. Act fully and love deeply without being enslaved by outcomes.</li>
+      <li><strong>Shat-Sampat</strong> — Six disciplines: calm mind, sense control, endurance, concentration, faith, withdrawal from excess.</li>
+      <li><strong>Mumukshutva</strong> — Genuine longing for liberation and peace. The taproot of all practice.</li></ul>
+      <p style="margin-top:.5rem;font-size:.82rem;"><em>Research:</em> SDT (Deci &amp; Ryan): Autonomy, Competence, and Relatedness met from within — not seeking external validation — produce stable, deep well-being. This is Advaita's Atman-realisation in psychological language.</p>
+    </div>
+    <div class="pb dk"><span class="bl bp">🌱 Daily Root Practice</span><h3>Deepening Your Foundation</h3>
+      <ul><li><strong>Values Clarity (weekly):</strong> Write your 5 core values. Ask: <em>"Did yesterday honour these?"</em></li>
+      <li><strong>Viveka Pause:</strong> Before reacting, ask: <em>"Is this eternal or passing? Atman or ego?"</em></li>
+      <li><strong>Vairagya:</strong> When attached to outcomes, open your hands: <em>"I give my best — the result belongs to life."</em></li>
+      <li><strong>Svadhyaya (15 min):</strong> One page of Gita, Upanishads, or Vivekachudamani daily.</li>
+      <li><strong>Gratitude Root (evening):</strong> 3 specific gratitudes. Harvard research: rewires the brain's negativity bias toward lasting contentment.</li></ul>
+    </div>
+  </div>
+  <div class="bq l"><blockquote>"Roots do not need applause. They go deep in the dark — and that depth is what makes everything above ground possible."</blockquote><cite>— Inspired by Advaita</cite></div>
+</div></div>
+
+<!-- TRUNK -->
+<div class="sw bg-trnk" id="trunk"><div class="si">
+  <div class="sh"><span class="stag tl">🪵 Part Two</span>
+    <h2 class="cw">The Trunk &nbsp;·&nbsp; <em style="color:#a7d9b1;font-style:normal;font-size:.6em;">Daily Character &amp; Discipline</em></h2>
+    <span class="mq mq-l">"The trunk does not grow overnight. Each year, one quiet ring is added — unseen, steady, strong. In time, it holds a thousand branches and weathers a thousand storms."</span>
+    <p class="lead lw">Your trunk is built through daily Sadhana. Every morning ritual, every hour of disciplined work, every conscious breath is another ring added. Character is a quiet, daily accumulation.</p>
+  </div>
+  <div class="tpg">
+    <div class="tb dk"><span class="bl bt">📖 Sadhana — Three Streams</span><h3>The Science of Daily Rings</h3>
+      <ul><li><strong>Tapas</strong> — disciplined effort; the heat that burns away what is unnecessary. Physical practice, silence, fasting.</li>
+      <li><strong>Svadhyaya</strong> — self-study through scripture and reflection. The intellectual ring.</li>
+      <li><strong>Ishvara-Pranidhana</strong> — surrender to what is larger than yourself. The spiritual ring.</li></ul>
+      <p style="margin-top:.5rem;">Neuroscience confirms: the brain builds neural pathways through consistent repetition (neuroplasticity). Every daily practice literally reshapes your brain — rings on your inner trunk. James Clear (Atomic Habits): a 1% daily improvement yields 37× growth in one year.</p>
+    </div>
+    <div class="pb dk"><span class="bl bp">🪵 Building the Trunk Daily</span><h3>When and How to Add Each Ring</h3>
+      <ul><li><strong>Brahma Muhurta (4:30–6 AM):</strong> Pre-dawn — Sattva dominates. Meditation and pranayama here are most potent.</li>
+      <li><strong>Physical Practice (6–7 AM):</strong> Yoga, exercise, nature walk. Consistent, not intense.</li>
+      <li><strong>Deep Work (8 AM–12 PM):</strong> Cortisol peak = cognitive peak. 3–4 focused hours outperform 8 scattered ones.</li>
+      <li><strong>Evening Review (8 PM):</strong> <em>"Did I add a ring today? Where did Maya pull me?"</em></li>
+      <li><strong>Sleep (9:30 PM):</strong> The Mandukya Upanishad: deep sleep is the nearest gateway to Brahman. Don't skip it.</li></ul>
+    </div>
+  </div>
+  <div class="cb">
+    <h3>⏰ Your Sacred 24 Hours — The Daily Ring</h3>
+    <p class="cs">Every day, lived with intention, adds one ring. This is how you spend a day — and a life.</p>
+    <div class="cd">
+      <div><div class="cw2"><canvas id="dailyChart"></canvas></div></div>
+      <div><div class="leg">
+        <div class="li"><span class="ld" style="background:#1b4332"></span>Deep Sleep (7.5h · 31%)</div>
+        <div class="li"><span class="ld" style="background:#9b59b6"></span>Sadhana/Meditation (2h · 8%)</div>
+        <div class="li"><span class="ld" style="background:#c0522d"></span>Deep Work/Purpose (6h · 25%)</div>
+        <div class="li"><span class="ld" style="background:#e67e22"></span>Exercise &amp; Body (1.5h · 6%)</div>
+        <div class="li"><span class="ld" style="background:#3498db"></span>Relationships (2h · 8%)</div>
+        <div class="li"><span class="ld" style="background:#f39c12"></span>Meals &amp; Self-care (2h · 8%)</div>
+        <div class="li"><span class="ld" style="background:#2ecc71"></span>Learning (1h · 4%)</div>
+        <div class="li"><span class="ld" style="background:#1abc9c"></span>Seva/Service (0.5h · 2%)</div>
+        <div class="li"><span class="ld" style="background:#e91e63"></span>Play &amp; Creativity (1h · 4%)</div>
+        <div class="li"><span class="ld" style="background:#95a5a6"></span>Transitions (0.5h · 2%)</div>
+      </div></div>
+    </div>
+  </div>
+</div></div>
+
+<!-- BRANCHES -->
+<div class="sw bg-brnc" id="branches"><div class="si">
+  <div class="sh"><span class="stag te">🌿 Part Three</span>
+    <h2 class="ce">The Branches &nbsp;·&nbsp; <em style="color:var(--bm);font-style:normal;font-size:.6em;">Eight Dimensions of Life</em></h2>
+    <span class="mq mq-e">"The branches reach in all directions — but every branch draws life from the same root. Balance is everything."</span>
+    <p class="lead le">Each dimension of your life is a branch. A tree with all growth on one side eventually falls. When branches are balanced, the tree gives the most shade.</p>
+  </div>
+  <div style="text-align:center;margin-bottom:1.8rem;">
+    <h3 style="font-family:'Cinzel',serif;color:var(--br);margin-bottom:.38rem;">Ikigai — Where All Branches Meet</h3>
+    <p style="color:var(--im);font-size:.84rem;max-width:440px;margin:0 auto 1.1rem;">Your Ikigai ("reason for being") lives where four core branches converge. Okinawa — world's most centenarians — credits Ikigai as the primary reason for longevity.</p>
+    <div class="ikw">
+      <div class="ikc ikl">What you<br/><strong>LOVE</strong></div>
+      <div class="ikc ikg">What you're<br/><strong>GOOD AT</strong></div>
+      <div class="ikc ikn">What the world<br/><strong>NEEDS</strong></div>
+      <div class="ikc ikp">What you can be<br/><strong>PAID FOR</strong></div>
+      <div class="ikm">Your<br/>IKIGAI</div>
+    </div>
+  </div>
+  <div class="tpg">
+    <div class="tb lt"><span class="bl btl">📖 Eight Life Branches (PERMA + Dharma)</span><h3>Your Complete Life Canopy</h3>
+      <ul><li>🔴 <strong>Health &amp; Body</strong> — carries all others</li>
+      <li>🔵 <strong>Mind &amp; Learning</strong> — reaches toward light</li>
+      <li>🟠 <strong>Relationships &amp; Love</strong> — intertwines with others</li>
+      <li>🟢 <strong>Work &amp; Purpose (Ikigai)</strong> — bears visible fruit</li>
+      <li>🟣 <strong>Spirituality &amp; Inner Life</strong> — closest to the sky</li>
+      <li>🟡 <strong>Play &amp; Creativity</strong> — flowers most freely</li>
+      <li>🩵 <strong>Service &amp; Contribution</strong> — shelters others</li>
+      <li>⚪ <strong>Finance &amp; Security</strong> — stabilises the canopy</li></ul>
+    </div>
+    <div class="pb lt"><span class="bl bpl">🌿 Weekly Branch Audit (15 min, Sunday)</span><h3>Tending Every Branch</h3>
+      <ul><li><strong>Rate each branch 1–10:</strong> <em>"How alive and nourished does this feel?"</em></li>
+      <li><strong>Find the flattest branch</strong> — energy flows there this week.</li>
+      <li><strong>Ikigai check:</strong> <em>"Am I spending time where Love, Skill, Need, and Livelihood converge?"</em></li>
+      <li><strong>One action per branch below 6.</strong> Small, concrete, today.</li>
+      <li><strong>Advaita reminder:</strong> Tend branches from love, not anxiety — as a gardener who delights in the garden, not who fears it.</li></ul>
+    </div>
+  </div>
+  <div class="cb">
+    <h3>⚖️ The Balanced Canopy — Life Branches</h3>
+    <p class="cs">Ideal proportional attention — no branch starved, none overgrown</p>
+    <div class="cd">
+      <div><div class="cw2"><canvas id="branchChart"></canvas></div></div>
+      <div><div class="leg">
+        <div class="li"><span class="ld" style="background:#e74c3c"></span>Health &amp; Body (20%)</div>
+        <div class="li"><span class="ld" style="background:#3498db"></span>Mind &amp; Learning (12%)</div>
+        <div class="li"><span class="ld" style="background:#e67e22"></span>Relationships (18%)</div>
+        <div class="li"><span class="ld" style="background:#2ecc71"></span>Work &amp; Purpose (16%)</div>
+        <div class="li"><span class="ld" style="background:#9b59b6"></span>Spirituality (14%)</div>
+        <div class="li"><span class="ld" style="background:#f39c12"></span>Play &amp; Creativity (8%)</div>
+        <div class="li"><span class="ld" style="background:#1abc9c"></span>Service (8%)</div>
+        <div class="li"><span class="ld" style="background:#95a5a6"></span>Finance (4%)</div>
+      </div></div>
+    </div>
+  </div>
+</div></div>
+
+<!-- LEAVES -->
+<div class="sw bg-leaf" id="leaves"><div class="si">
+  <div class="sh"><span class="stag td">🍃 Part Four</span>
+    <h2 class="cl">The Leaves &nbsp;·&nbsp; <em style="color:var(--g2);font-style:normal;font-size:.6em;">The Present Moment</em></h2>
+    <span class="mq mq-gr">"Each leaf is one day of your life — it comes, shines in the light, and falls. The tree is not diminished. It is renewed."</span>
+    <p class="lead ll">Mindfulness teaches you to value each leaf. Advaita teaches you not to cling to it — to let it come and let it go.</p>
+  </div>
+  <div class="tpg">
+    <div class="tb lt"><span class="bl btl">📖 Impermanence, Mindfulness &amp; Flow</span><h3>Understanding the Leaves</h3>
+      <p><strong>Anitya (Impermanence):</strong> Every thought, feeling, and experience arises and passes. The witness behind all this — the tree — is unchanged. That is your true nature.</p>
+      <p style="margin-top:.5rem;"><strong>MBSR (Kabat-Zinn):</strong> 1,000+ studies: 10 min daily mindfulness reduces cortisol 23%, shrinks amygdala (anxiety), builds prefrontal cortex (wisdom). <strong>Flow (Csikszentmihalyi):</strong> Complete present-moment absorption produces the highest measurable happiness — the leaf in full sunlight.</p>
+    </div>
+    <div class="pb lt"><span class="bl bpl">🍃 Living Each Leaf Fully</span><h3>The Art of Presence</h3>
+      <ul><li><strong>Morning leaf (5 min):</strong> Step outside. Feel the air, see the light. Simply be — no phone, no plan.</li>
+      <li><strong>One-breath reset:</strong> Before each task, one conscious breath. Enter the present moment.</li>
+      <li><strong>Protect your flow activity:</strong> One daily activity where you lose track of time. Guard it fiercely.</li>
+      <li><strong>Vairagya with emotions:</strong> When a difficult feeling arises: <em>"This too is a leaf. I am the tree."</em></li>
+      <li><strong>Evening gratitude:</strong> 3 specific beauties from today. Raises happiness 25% in 3 weeks.</li></ul>
+    </div>
+  </div>
+</div></div>
+
+<!-- FRUIT -->
+<div class="sw bg-frut" id="fruit"><div class="si">
+  <div class="sh"><span class="stag tg">🍎 Part Five</span>
+    <h2 style="font-family:'Cinzel',serif;color:var(--br);font-size:clamp(1.5rem,3.5vw,2.5rem);">The Fruit &nbsp;·&nbsp; <em style="color:var(--gd);font-style:normal;font-size:.6em;">Purpose, Service &amp; Giving</em></h2>
+    <span class="mq mq-e">"The tree does not eat its own fruit. It grows fruit for others — for birds, for travellers, for the soil. This is its greatest act of being."</span>
+    <p class="lead le">Your fruit is what you uniquely contribute — your Ikigai in action. The deepest teaching of the Bhagavad Gita: give your best, and release attachment to the result.</p>
+  </div>
+  <div class="tpg">
+    <div class="tb lt"><span class="bl btl">📖 Nishkama Karma — Action Without Attachment</span><h3>The Fruit Principle</h3>
+      <p><strong>Bhagavad Gita Ch. 3:</strong> Act with full engagement and zero attachment to outcomes. The fruit is not yours to keep — it belongs to the world. This is the highest form of action: Nishkama Karma.</p>
+      <p style="margin-top:.5rem;"><strong>Viktor Frankl (Logotherapy):</strong> Meaning — not pleasure — is the deepest human motivation. Survivors of extremity remained whole when they found purpose. <strong>Altruism Research:</strong> Regular giving to others produces longer life, higher happiness, and lower inflammation. Seva (selfless service) heals the giver.</p>
+    </div>
+    <div class="pb lt"><span class="bl bpl">🍎 Bearing Your Fruit Daily</span><h3>Living Your Purpose</h3>
+      <ul><li><strong>Ikigai mapping:</strong> Write what you love, what you're skilled at, what the world needs, what sustains you. Where they overlap — that is your fruit.</li>
+      <li><strong>Offer each action:</strong> Before beginning work: <em>"This I offer to Brahman — not for my name, but for the good it creates."</em></li>
+      <li><strong>Daily Seva:</strong> One small act of genuine giving each day — without expectation of return.</li>
+      <li><strong>Nishkama Review (evening):</strong> <em>"Did I act today without clinging to recognition or outcome?"</em></li>
+      <li><strong>Legacy question (monthly):</strong> <em>"What shade will my tree give? What fruit, long after I am gone?"</em></li></ul>
+    </div>
+  </div>
+  <div class="bq e"><blockquote>"The mango tree does not ask who eats its fruit. It simply gives, and in giving, fulfils its entire purpose."</blockquote><cite>— Inspired by Bhagavad Gita</cite></div>
+</div></div>
+
+<!-- SEASONS -->
+<div class="sw bg-seas" id="seasons"><div class="si">
+  <div class="sh"><span class="stag" style="background:rgba(92,148,192,.12);color:#2c4a6e;">🍂 Part Six</span>
+    <h2 style="font-family:'Cinzel',serif;color:#1a3a5e;font-size:clamp(1.5rem,3.5vw,2.5rem);">The Seasons &nbsp;·&nbsp; <em style="color:#5ba3c9;font-style:normal;font-size:.6em;">The 75-Year Life Cycle</em></h2>
+    <span class="mq" style="color:#2c5a7e;">"The tree does not rush from spring to autumn. Each season has its own wisdom, its own work, its own beauty. None can be skipped."</span>
+    <p class="lead" style="color:#2c4a6e;margin-top:.6rem;">Your life, like the tree, moves through distinct seasons — each with its unique gifts, challenges, and lessons. Honouring the season you are in is the deepest form of wisdom.</p>
+  </div>
+  <div class="sg">
+    <div class="sc ss">
+      <div class="se">🌱</div><h3>Spring</h3>
+      <p class="sa">Ages 0–25 · The Seedling</p>
+      <p>Brahmacharya Ashrama — the season of learning, forming roots, and discovering your nature. The tree is small but growing fast.</p>
+      <ul><li>Absorb knowledge voraciously</li><li>Develop Viveka — learn to discriminate</li><li>Find your mentors and your Sangha</li><li>Build the body and habits you'll carry for life</li></ul>
+    </div>
+    <div class="sc su">
+      <div class="se">☀️</div><h3>Summer</h3>
+      <p class="sa">Ages 25–50 · The Growing Tree</p>
+      <p>Grihastha Ashrama — the season of full engagement: career, family, creation, contribution. The trunk grows strong, the branches spread wide.</p>
+      <ul><li>Build your Ikigai — purpose in the world</li><li>Deepen relationships; create family</li><li>Serve society; build lasting work</li><li>Maintain spiritual practice amid the fullness</li></ul>
+    </div>
+    <div class="sc sau">
+      <div class="se">🍂</div><h3>Autumn</h3>
+      <p class="sa">Ages 50–65 · The Mature Tree</p>
+      <p>Vanaprastha Ashrama — gradual withdrawal from ego-driven pursuits. Turning toward inner life. The fruit ripens and falls generously.</p>
+      <ul><li>Shift from achieving to being</li><li>Mentor the next generation</li><li>Deepen meditation and study</li><li>Begin the inward journey toward Moksha</li></ul>
+    </div>
+    <div class="sc sw2">
+      <div class="se">❄️</div><h3>Winter</h3>
+      <p class="sa">Ages 65–75+ · The Ancient Tree</p>
+      <p>Sannyasa Ashrama — full renunciation of ego-attachment. The tree stands as a shelter for all. Pure presence and wisdom.</p>
+      <ul><li>Abide as the Atman</li><li>Live simply and radiantly</li><li>Be the shade under which others rest</li><li>Prepare for the final, fearless transition</li></ul>
+    </div>
+  </div>
+  <div class="cb" style="margin-top:1.5rem;">
+    <h3>📊 Your 75-Year Life — Proportional View</h3>
+    <p class="cs">How the four ashrama seasons distribute across an average life</p>
+    <div class="cd">
+      <div><div class="cw2"><canvas id="seasonChart"></canvas></div></div>
+      <div><div class="leg" style="margin-top:1rem;">
+        <div class="li"><span class="ld" style="background:#a0522d"></span>Spring / Brahmacharya (0–25)</div>
+        <div class="li"><span class="ld" style="background:#2d6a4f"></span>Summer / Grihastha (25–50)</div>
+        <div class="li"><span class="ld" style="background:#b35a1a"></span>Autumn / Vanaprastha (50–65)</div>
+        <div class="li"><span class="ld" style="background:#2c4a6e"></span>Winter / Sannyasa (65–75+)</div>
+      </div>
+      <p style="margin-top:.9rem;font-size:.8rem;color:var(--il);font-style:italic;">The four ashramas are a classical Hindu framework for a complete, meaningful life. Each season is honoured — none is wasted.</p>
+      </div>
+    </div>
+  </div>
+</div></div>
+
+<!-- FOREST -->
+<div class="sw bg-fore" id="forest"><div class="si">
+  <div class="sh"><span class="stag tl">🌲 Part Seven</span>
+    <h2 class="cw">The Forest &nbsp;·&nbsp; <em style="color:var(--gl);font-style:normal;font-size:.6em;">Community &amp; Relationships</em></h2>
+    <span class="mq mq-g">"No tree grows alone. Beneath the forest floor, roots intertwine and share nourishment. Trees that appear separate are secretly one."</span>
+    <p class="lead lw">Your forest is your Sangha — your community of truth-seekers and loved ones. Research consistently shows: the quality of your relationships is the single greatest predictor of long-term health and happiness.</p>
+  </div>
+  <div class="cg" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;margin-bottom:2rem;">
+    <div class="dc"><span class="gtag">🌳 Sangha</span><h4>Community of Practice</h4><p>The Buddha listed Sangha as one of the Three Jewels. Research (Harvard Study of Adult Development, 80+ years): close relationships are the most powerful predictor of happiness and longevity — more than wealth, fame, or fitness.</p></div>
+    <div class="dc"><span class="gtag">💞 Attachment</span><h4>Secure Bonds</h4><p>Secure attachment — feeling genuinely known and accepted — is the root of all healthy relating. It is cultivated through presence, honesty, and repair. In Advaita, the highest relationship honours the Atman in the other: <em>Tat Tvam Asi</em> — That Thou Art.</p></div>
+    <div class="dc"><span class="gtag">🤝 Satsang</span><h4>Company of Truth</h4><p>Satsang (being with truth) is the most powerful accelerant of spiritual growth. Surround yourself with people who remind you of your highest nature — not those who reinforce your smallest fears. Choose your forest carefully.</p></div>
+    <div class="dc"><span class="gtag">🌿 Seva</span><h4>Serving the Forest</h4><p>A single tree standing alone is fragile. Trees in a forest hold each other upright. Daily Seva — serving without agenda — creates a forest of mutual care. Compassion (Karuna) and loving-kindness (Metta) are practices, not just feelings.</p></div>
+  </div>
+  <div class="ps">
+    <div class="pr"><div class="pi">🎯</div><h4>Be Present</h4><p>Give full attention when with others. The greatest gift is your presence — not your advice or your phone.</p></div>
+    <div class="pr"><div class="pi">🔊</div><h4>Listen Deeply</h4><p>Most people listen to reply. Train yourself to listen to understand. This is non-dual listening — hearing the Atman speaking.</p></div>
+    <div class="pr"><div class="pi">🙏</div><h4>See the Divine</h4><p>The practice of Atithi Devo Bhava — "the guest is God." See the Atman in everyone you meet, especially those who are difficult.</p></div>
+    <div class="pr"><div class="pi">🌱</div><h4>Repair Quickly</h4><p>When roots are damaged, repair them. Apologies and reconciliation strengthen the forest. Pride kills trees; humility saves them.</p></div>
+    <div class="pr"><div class="pi">🔥</div><h4>Speak Truth</h4><p>Satya (truth) with Ahimsa (non-harming). Honest, kind communication is the sunlight of the forest — it allows everything to grow.</p></div>
+  </div>
+</div></div>
+
+<!-- DAILY GARDEN -->
+<div class="sw bg-gard" id="garden"><div class="si">
+  <div class="sh"><span class="stag tl">🌻 Your Daily Garden</span>
+    <h2 class="cw">The Complete Daily Practice<br/><small style="font-size:.52em;color:var(--gl);">Tending the Tree Every Single Day</small></h2>
+    <span class="mq mq-g">"A garden neglected for a week takes months to restore. A garden tended for five minutes every day is always in bloom."</span>
+    <p class="lead lw">This is not a schedule to be perfect at. It is a garden to return to, every morning, with love. Even one practice done sincerely is enough to add a ring to your trunk.</p>
+  </div>
+  <div class="gg">
+    <div class="dc"><span class="gtag">🌅 Dawn (4:30–6 AM)</span><h4>Brahma Muhurta — Sacred Hour</h4>
+      <ul><li>Wake in stillness. Don't reach for phone.</li><li>Lie still: <em>"What is aware before thought?"</em></li><li>Nadi Shodana pranayama — 10 minutes</li><li>Meditation / Atma-Vichara — 20 minutes</li><li>Sankalpa — one conscious intention for the day</li></ul>
+    </div>
+    <div class="dc"><span class="gtag">🌄 Morning (6–8 AM)</span><h4>Body &amp; Learning</h4>
+      <ul><li>Yoga, exercise, or a walk in nature — 45–60 min</li><li>Cold water, light nourishing meal</li><li>Svadhyaya — one page of scripture or wisdom</li><li>Set three MIT (Most Important Tasks) for the day</li></ul>
+    </div>
+    <div class="dc"><span class="gtag">☀️ Midday (8 AM–1 PM)</span><h4>Deep Work — Purpose Branch</h4>
+      <ul><li>Your most demanding creative/intellectual work</li><li>Phone off or on airplane mode</li><li>Single-task with full presence (Ekagrata)</li><li>Offer work mentally as Nishkama Karma</li></ul>
+    </div>
+    <div class="dc"><span class="gtag">🌤 Afternoon (1–6 PM)</span><h4>Relationships &amp; Service</h4>
+      <ul><li>Meetings, collaborations, errands</li><li>One small Seva — help someone without agenda</li><li>Short walk or rest between tasks (20 min)</li><li>Viveka pause before each decision: <em>"Atman or ego?"</em></li></ul>
+    </div>
+    <div class="dc"><span class="gtag">🌙 Evening (6–9 PM)</span><h4>Relationships, Play &amp; Restoration</h4>
+      <ul><li>Full presence with family — no distractions</li><li>Light meal before 7 PM</li><li>Creative practice, music, or nature walk</li><li>Evening prayer / mantra / kirtan (15 min)</li></ul>
+    </div>
+    <div class="dc"><span class="gtag">🌌 Night (9–9:30 PM)</span><h4>The Evening Ring — Review &amp; Rest</h4>
+      <ul><li>Gratitude journal — 3 specific gifts from today</li><li>Evening review: <em>"Did I add a ring? Where did Maya pull me?"</em></li><li>Forgive yourself and others. Release the day completely.</li><li>Sleep by 10 PM. The trunk consolidates overnight.</li></ul>
+    </div>
+  </div>
+  <div style="margin-top:2.5rem;background:rgba(201,148,26,.12);border:1px solid rgba(201,148,26,.3);border-radius:var(--r);padding:2rem;text-align:center;">
+    <p style="color:var(--gl);font-size:.8rem;letter-spacing:2px;text-transform:uppercase;font-family:'Noto Serif',serif;margin-bottom:.8rem;">The One-Line Practice</p>
+    <p style="font-family:'Noto Serif',serif;font-style:italic;color:#d8f3dc;font-size:1.15rem;line-height:1.9;margin-bottom:.6rem;">"Wake as awareness. Act as love. Rest as peace. This is the complete practice of Advaita in daily life."</p>
+    <p style="color:var(--gd);font-size:.82rem;">If you do nothing else — begin with five minutes of sitting quietly and asking: <em>"Who is aware right now?"</em> Everything else grows from that seed.</p>
+  </div>
+</div></div>
+
+<footer>
+  <div class="ftr">🌳</div>
+  <h3>You Are a Tree</h3>
+  <p>Rooted in the eternal. Growing in the present. Giving to the world. This is the life of Advaita — lived from the inside out.</p>
+  <div class="ftm">ॐ &nbsp; Tat Tvam Asi &nbsp; ॐ</div>
+  <p style="color:#1f2937;font-size:.7rem;margin-top:.6rem;">That Thou Art · You are That which you have always been seeking.</p>
+</footer>
+
+<script>
+function toggleAcc(btn){
+  var body=btn.nextElementSibling;
+  var isOpen=body.classList.contains('open');
+  document.querySelectorAll('.abody.open').forEach(function(el){el.classList.remove('open');el.previousElementSibling.querySelector('span:last-child').textContent='+';});
+  if(!isOpen){body.classList.add('open');btn.querySelector('span:last-child').textContent='−';}
+}
+
+var opt={responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return' '+c.label+': '+c.raw+(c.label.includes('%')?'':'h');}}}}};
+
+new Chart(document.getElementById('dailyChart'),{type:'doughnut',data:{labels:['Deep Sleep (7.5h)','Sadhana/Meditation (2h)','Deep Work/Purpose (6h)','Exercise & Body (1.5h)','Relationships (2h)','Meals & Self-care (2h)','Learning (1h)','Seva/Service (0.5h)','Play & Creativity (1h)','Transitions (0.5h)'],datasets:[{data:[7.5,2,6,1.5,2,2,1,0.5,1,0.5],backgroundColor:['#1b4332','#9b59b6','#c0522d','#e67e22','#3498db','#f39c12','#2ecc71','#1abc9c','#e91e63','#95a5a6'],borderWidth:2,borderColor:'#fff'}]},options:{...opt,cutout:'65%'}});
+
+new Chart(document.getElementById('branchChart'),{type:'doughnut',data:{labels:['Health & Body (20%)','Mind & Learning (12%)','Relationships (18%)','Work & Purpose (16%)','Spirituality (14%)','Play & Creativity (8%)','Service (8%)','Finance (4%)'],datasets:[{data:[20,12,18,16,14,8,8,4],backgroundColor:['#e74c3c','#3498db','#e67e22','#2ecc71','#9b59b6','#f39c12','#1abc9c','#95a5a6'],borderWidth:2,borderColor:'#fff'}]},options:{...opt,cutout:'65%'}});
+
+new Chart(document.getElementById('seasonChart'),{type:'doughnut',data:{labels:['Spring / Brahmacharya (0–25)','Summer / Grihastha (25–50)','Autumn / Vanaprastha (50–65)','Winter / Sannyasa (65–75)'],datasets:[{data:[25,25,15,10],backgroundColor:['#a0522d','#2d6a4f','#b35a1a','#2c4a6e'],borderWidth:2,borderColor:'#fff'}]},options:{...opt,cutout:'65%'}});
+</script>
+</body>
+</html>
