@@ -8,7 +8,7 @@ A beautifully crafted, single-page interactive guide that maps the entire human 
 
 ## 🌐 Live Demo
 
-👉 **[View the Guide](https://YOUR_USERNAME.github.io/You-are-a-tree/)**
+👉 **[View the Guide](https://karthikcheers.github.io/you-are-a-tree/)**
 
 *(Replace with your actual GitHub Pages URL after publishing)*
 
